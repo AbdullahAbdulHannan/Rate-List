@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .item-container {
+    width: 46%;
+    background-color: #b9e9db;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+    margin: 10px;
+  }
+
+      img {
+          width: 100px;
+          height: 100px;
+          border: 2px solid white;
+          border-radius: 8px;
+      }
+
+      #entry {
+          display: block;
+          background-color: rgb(232, 218, 192);
+          border: 2px solid rgb(220, 204, 204);
+          border-radius: 10px;
+          padding: 20px;
+          margin: 10px
+      }
+.item-container>h1{
+  text-align: center;
+  font-size: 50px;
+  color: blue;
+}
+      input {
+          display: block;
+          /* margin: 10px; */
+          margin-left: 200px;
+          width: 1000px;
+          height: 30px;
+          outline: none;
+          border-radius: 10px;
+          font-size: 20px;
+      }
+
+      button {
+          background-color: rgb(69, 69, 236);
+          border: 2px solid rgb(4, 0, 255);
+          border-radius: 15px;
+          width: 100px;
+          height: 50px;
+          color: white;
+          cursor: pointer;
+      }
+
+      #out {
+          margin-top: 10px;
+          margin-left: 600px;
+      }

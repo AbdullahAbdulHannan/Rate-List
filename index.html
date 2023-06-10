@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body id="b">
+    <center>
+    <h1>RATE LIST</h1>
+    </center>
+    <div id="entry">
+        <label for="main">Title:</label>
+        <input type="text" id="main">
+        <label for="image">Image URL:</label>
+        <input type="text" name="" id="image">
+        <label for="price">Price: </label>
+        <input type="number" name="" id="price">
+        <div id="out">
+            <button id="Bar" onclick="rateCard('mainBbq')">Add BBQ</button>
+            <button id="Bur" onclick="rateCard('mainBurger')">Add Burger</button>
+        </div>
+    </div>
+    <div class="container">
+    <div id="mainBbq"  class="item-container">
+        <h1>BBQ</h1>
+    </div>
+    <div id="mainBurger" class="item-container">
+        <h1>BURGERS</h1>
+    </div>
+</div>
+</body>
+<script src="./script.js"></script>
+
+</html>
